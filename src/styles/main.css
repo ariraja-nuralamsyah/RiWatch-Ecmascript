@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+ }
+
+.full-width {
+    width: 100%;
+}
+
+main{
+    overflow: auto;
+    padding: 16px;
+}
+
+aside{
+    float:left;
+    width:20%;
+    height: 100%;
+    padding: 16px;
+}
+
+.content{
+    float:right;
+    width:80%;
+}
+
+.active{
+    background-color: darkgrey;
+}
+
+#Beranda:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#History:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#Favorite:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 30px;
+}
+.scrolling-wrapper .card {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.scrolling-wrapper .card:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
